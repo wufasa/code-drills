@@ -20,6 +20,12 @@ $(document).ready(function () {
         // append `randLetter` to the element with an id of `letters`
 
         
+        var randLetter = "";
+        var possibleLetters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+        var randIndex = Math.floor(Math.random() * possibleLetters.length)
+        randLetter = possibleLetters.charAt(randIndex); 
+        console.log(randLetter);
+        $("#letters").append(randLetter);
 
     });
 
