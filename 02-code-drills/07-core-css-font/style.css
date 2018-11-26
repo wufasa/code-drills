@@ -1,0 +1,29 @@
+h1 {
+  font-weight: bold;
+  font-size: 40px;
+}
+
+h3 {
+  font-style: italic;
+  line-height: 30px;
+}
+
+
+#p1{
+    font-family: 'Black Han Sans', sans-serif;
+
+}
+
+#p2{
+    font-family: 'Ranga', cursive;
+}
+
+#p3{
+    
+    font-family: 'Playfair Display', serif;
+}
+
+#p4{
+    font-family: 'Sedgwick Ave', cursive;
+
+}
